@@ -1,5 +1,7 @@
 # Story-of-renderer
 
-An animation to explain the GPU rendering pipeline.
+An animation to explain how our rendering pipeline renders each frame.
 
-## Script
+```sh
+uv run story.py
+```

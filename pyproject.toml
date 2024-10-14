@@ -1,32 +1,7 @@
 [project]
 name = "story-of-renderer"
 version = "0.1.0"
-description = "Add your description here"
-authors = [
-    { name = "Yusuke Shibata", email = "yusukeshib@gmail.com" }
-]
-dependencies = [
-    "manim>=0.18.1",
-]
+description = "How our renderer renders each frame"
 readme = "README.md"
-requires-python = ">= 3.8"
-
-[project.scripts]
-"story-of-renderer" = "story_of_renderer:main"
-
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-
-[tool.rye]
-managed = true
-dev-dependencies = []
-
-[tool.rye.scripts]
-build = "manim -pql src/main.py Main"
-
-[tool.hatch.metadata]
-allow-direct-references = true
-
-[tool.hatch.build.targets.wheel]
-packages = ["src/story_of_renderer"]
+requires-python = ">=3.12"
+dependencies = []
