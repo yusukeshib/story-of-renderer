@@ -1,3 +1,5 @@
-# story-of-renderer
+# Story-of-renderer
 
-Describe your project here.
+An animation to explain the GPU rendering pipeline.
+
+## Script
