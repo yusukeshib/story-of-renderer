@@ -22,6 +22,9 @@ build-backend = "hatchling.build"
 managed = true
 dev-dependencies = []
 
+[tool.rye.scripts]
+build = "manim -pql src/main.py Main"
+
 [tool.hatch.metadata]
 allow-direct-references = true
 

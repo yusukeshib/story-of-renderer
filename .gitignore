@@ -9,3 +9,5 @@ wheels/
 # venv
 .venv
 .direnv/
+.DS_Store
+/media/
